@@ -1,0 +1,9 @@
+E:\Antigravity\Advance_learning_platform\LearnHub.API\Controllers\AuthController.cs(38,17): error CS0117: 'User' does not contain a definition for 'FullName' [E:\Antigravity\Advance_learning_platform\LearnHub.API\LearnHub.API.csproj]
+E:\Antigravity\Advance_learning_platform\LearnHub.API\Controllers\AuthController.cs(36,28): error CS9035: Required member 'User.Name' must be set in the object initializer or attribute constructor. [E:\Antigravity\Advance_learning_platform\LearnHub.API\LearnHub.API.csproj]
+E:\Antigravity\Advance_learning_platform\LearnHub.API\Controllers\AuthController.cs(63,78): error CS1061: 'User' does not contain a definition for 'FullName' and no accessible extension method 'FullName' accepting a first argument of type 'User' could be found (are you missing a using directive or an assembly reference?) [E:\Antigravity\Advance_learning_platform\LearnHub.API\LearnHub.API.csproj]
+
+Build FAILED.
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:01.07

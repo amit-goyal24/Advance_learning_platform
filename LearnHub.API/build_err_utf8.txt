@@ -1,0 +1,9 @@
+﻿E:\Antigravity\Advance_learning_platform\LearnHub.API\Program.cs(12,18): error CS1061: 'IServiceCollection' does not contain a definition for 'AddSwaggerGen' and no accessible extension method 'AddSwaggerGen' accepting a first argument of type 'IServiceCollection' could be found (are you missing a using directive or an assembly reference?) [E:\Antigravity\Advance_learning_platform\LearnHub.API\LearnHub.API.csproj]
+E:\Antigravity\Advance_learning_platform\LearnHub.API\Program.cs(61,9): error CS1061: 'WebApplication' does not contain a definition for 'UseSwagger' and no accessible extension method 'UseSwagger' accepting a first argument of type 'WebApplication' could be found (are you missing a using directive or an assembly reference?) [E:\Antigravity\Advance_learning_platform\LearnHub.API\LearnHub.API.csproj]
+E:\Antigravity\Advance_learning_platform\LearnHub.API\Program.cs(62,9): error CS1061: 'WebApplication' does not contain a definition for 'UseSwaggerUI' and no accessible extension method 'UseSwaggerUI' accepting a first argument of type 'WebApplication' could be found (are you missing a using directive or an assembly reference?) [E:\Antigravity\Advance_learning_platform\LearnHub.API\LearnHub.API.csproj]
+
+Build FAILED.
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:01.16

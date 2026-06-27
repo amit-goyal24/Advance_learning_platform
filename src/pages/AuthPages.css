@@ -1,0 +1,180 @@
+/* Authentication Layout */
+.auth-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Left Brand Side */
+.auth-brand-side {
+    flex: 1;
+    background-color: var(--login-side-bg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.auth-brand-content {
+    position: relative;
+    z-index: 10;
+    max-width: 480px;
+}
+
+.auth-logo {
+    display: inline-block;
+    margin-bottom: 3rem;
+    text-decoration: none;
+}
+
+.bg-transparent {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.text-white {
+    color: white;
+}
+
+.auth-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.auth-subtitle {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+}
+
+/* Decorative Circles */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.circle-1 {
+    width: 600px;
+    height: 600px;
+    bottom: -200px;
+    left: -200px;
+}
+
+.circle-2 {
+    width: 800px;
+    height: 800px;
+    bottom: -300px;
+    left: -300px;
+}
+
+/* Right Form Side */
+.auth-form-side {
+    flex: 1;
+    background-color: var(--bg-color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.auth-form-container {
+    max-width: 400px;
+    width: 100%;
+}
+
+.auth-form-header {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.auth-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-serif);
+}
+
+.auth-switch {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.auth-form {
+    margin-bottom: 2rem;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.forgot-link {
+    font-size: 0.875rem;
+    color: var(--brand-blue);
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: var(--brand-blue);
+    text-decoration: none;
+}
+
+/* Custom Select Dropdown Wrapper */
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper::after {
+    content: "";
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid var(--text-secondary);
+    pointer-events: none;
+}
+
+.form-select {
+    appearance: none;
+    -webkit-appearance: none;
+    padding-right: 2.5rem;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .auth-brand-side {
+        display: none;
+        /* Hide brand side on small screens */
+    }
+}
