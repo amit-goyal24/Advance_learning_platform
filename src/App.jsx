@@ -42,7 +42,7 @@ function App() {
   const { toasts, removeToast } = useToast();
 
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <MainLayout>
         <Routes>
           {/* Public Routes */}

@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="container navbar-container">
                 <Link to="/" className="navbar-brand">
                     <div className="logo-icon-container" style={{ padding: '4px', background: 'transparent', border: 'none' }}>
-                        <img src="/logo.png" alt="LearnHub Logo" className="logo-image" style={{ height: '36px', width: 'auto' }} />
+                        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="LearnHub Logo" className="logo-image" style={{ height: '36px', width: 'auto' }} />
                     </div>
                     <span className="logo-text sr-only">LearnHub LMS</span>
                 </Link>
